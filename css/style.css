@@ -1,0 +1,413 @@
+/* Main Css */
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap&subset=korean");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline-color: var(--secondary-color);
+}
+
+html,
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 1rem;
+  background: var(--bg-light);
+}
+
+:root {
+  --primary-color: #04cfbe;
+  --secondary-color: #ff8c00;
+  --bg-light: #f8f8f8cc;
+  --bg-dark: #333;
+  --text-light: #fff;
+  --text-dark: #333;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+a:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+
+.rounded-btn {
+  text-decoration: none;
+  border: none;
+  color: var(--text-light);
+  background: var(--primary-color);
+  padding: 6px 1rem;
+  margin: 1rem 1.5rem;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.btn-btn:hover {
+  text-decoration: none;
+  color: var(--text-dark);
+}
+.nav-links{
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+/* Nav header */
+nav li {
+  color: var(--text-dark);
+  text-transform: capitalize;
+  transition: all 300ms ease-in-out;
+  font-weight: bold;
+  margin: 10px;
+
+}
+nav li:hover {
+  border-bottom: 1px solid var(--text-dark);
+  /* font-weight: bold; */
+}
+
+/* Main section */
+
+/* Profile */
+/* first page begins */
+.profile {
+  margin: 5rem 0;
+}
+
+.greeting p {
+  color: #fff;
+  background: var(--primary-color);
+  padding: 6px 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  width: 25%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.username h1 {
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.job-title h5 {
+  font-weight: bolder;
+  text-transform: lowercase;
+  font-size: 1.2rem;
+}
+
+ul {
+  margin-top: 2rem;
+}
+ul li,
+.social-link {
+  line-height: 2;
+  font-size: 1rem;
+}
+
+.social-link a {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+}
+
+/* profile Image */
+.image {
+  border: 20px solid #eeee;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+.image img {
+  border: 20px solid #ccc;
+  border-radius: 50%;
+  transition: all 0.9s ease;
+  align-content: center;
+}
+.image img:hover{
+  transform: rotate(-360deg);
+}
+/* first pages ends */
+
+/* second page begins */
+.about-me {
+  margin-top: 10rem;
+}
+
+.about-me h1 {
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.skills p {
+  border: solid 1px var(--primary-color);
+  line-height: 3;
+  padding: 5px 10px;
+  font-size: 1rem;
+  border-radius: 3px;
+  display: inline;
+  text-transform: lowercase;
+  margin-right: 0.4rem;
+  cursor: pointer;
+}
+/* second page ends*/
+
+/* Third page begins */
+.what-i-do {
+    margin-top: 10rem;
+    font-size: 15px;
+}
+.what-i-do h3 {
+    font-weight: bold;
+    margin: 1rem 0;
+    text-transform: capitalize
+}
+.what-i-do h1 {
+    font-weight: bolder;
+    margin-bottom: 4rem;;
+}
+.i-card {
+    box-shadow: 1px 5px 10px 2px rgba(0,0,0,0.2);
+    padding: 30px 20px;
+    background: var(--text-light);
+
+}
+/* Third page ends */
+
+/* fourth page begins */
+.Experience{
+  margin-top: 10rem;
+  font-size: 15px;
+}
+.Experience h1{
+  font-weight: bold;
+  margin: 30px;
+}
+.Experience .row{
+  padding: 60px;
+}
+.main{
+  margin-top: 3rem;
+}
+.main h1{
+  font-size: 30px;
+}
+.main h2{
+  font-weight: bold;
+  margin: 1rem 0;
+  font-size: 20px;
+}
+.main .text{
+  color: var(--primary-color);
+}
+.main .i-card{
+  box-shadow: 1px 5px 10px 2px rgba(0,0,0,0.2);
+  padding: 10px 20px;
+  margin: 50px 0px;
+  background: var(--text-light);
+
+} 
+/* fourth page ends */
+
+/* fifth page begins */
+.Recent h1{
+  font-size: 25px;
+  font-weight: bold;
+}
+.Recent .row{
+  padding: 30px;
+}
+.Recent a{
+  color: rgb(107, 104, 104);  
+}
+.Recent a:hover{
+  color: var(--primary-color);
+}
+.recent-image{
+  margin: 20px;
+}
+/* fifth page ends */
+
+/* sixth page begins */
+.pricing h1{
+  font-weight: bold;
+  text-align: center;
+  margin: 60px;
+  font-size: 30px;
+}
+.pricing .row{
+  padding: 60px;
+}
+
+.box{
+  box-shadow: 1px 5px 8px 2px rgba(0,0,0,0.2);
+  padding: 60px 20px 35px 20px;
+  text-align: center;
+  line-height: 30px;
+  background: var(--text-light);
+}
+.box h2{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.box span{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 80px;
+  color: var(--primary-color);
+}
+.box button{
+  border-radius: 20px;
+  background: var(--primary-color);
+  box-shadow: none;
+  color: var(--text-light);
+  font-weight: bold;
+}
+/* sixth page ends */
+
+/* seventh page begins */
+.blog{
+  padding: 90px;
+
+}
+.blog h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 70px;
+  text-align: center;
+}
+.blog .cards{
+  margin: 10px 5px;
+  background: #fff;
+  box-shadow: 1px 5px 8px 2px rgba(0,0,0,0.2);
+
+}
+.blog .text{
+  margin: 30px;
+  line-height: 25px;
+  padding-bottom: 30px;
+}
+.blog .text h3{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(107, 104, 104);
+}
+.blog .text span,a{
+  color: var(--primary-color);
+}
+.blog .text p{
+  font-size: 14px;
+}
+/* seventh ends */
+
+/* eighth page begins */
+.client h1{
+  font-weight:bold;
+  text-align: center; 
+  margin: 60px;
+  font-size: 35px;
+}
+.joan{
+  background: #fff;
+  text-align: center;
+  line-height: 27px;
+  box-shadow: 1px 5px 8px 2px rgba(0,0,0,0.2);  
+}
+.joan img{
+  border: 5px solid var(--primary-color);
+  border-radius: 50%;
+  margin: 30px;
+}
+.joan .text{
+  margin: 10px 15px 60px 15px;
+  font-size: 15px;
+}
+.joan .text span{
+  font-weight: bold;
+}
+/* eighth page ends */
+
+/* ninth page begins */
+.contact .row{
+  padding: 40px;
+}
+.contact h1{
+  font-weight: bold;
+  font-size: 20px;
+}
+.contact h2{
+  font-weight: bold;
+  font-size: 18px;
+}
+.contact .box i{
+  font-size: 30px;
+  padding: 30px;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  background: var(--text-light);
+}
+.contact .box{
+  background: var(--text-light)
+}
+.contact .box p{
+  font-size: 12px;
+}
+/* ninth page ends */
+
+/* footer begins */
+footer p{
+  font-size: 15px;
+  color: grey;
+}
+/* footer ends */
+
+/* media query begins */
+@media screen and (max-width: 768px){
+  .drop{
+    position: absolute;
+    cursor: pointer;
+    top: 8%;
+    right: 50%;
+  }
+  .line{
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin:5px; 
+  }
+  .nav-links{
+    text-align: center;
+    position: absolute;
+    background-color: grey;
+    z-index: 2;
+    height: 100vh;
+    width: 50%;
+    right: 0;
+    top: 0;
+    padding-bottom: 15rem;
+    flex-direction: column;
+    clip-path: circle(100px at 95% -30%);
+    -webkit-clip-path: circle(100px at 95% -30%);
+    transition: all 1s ease-in-out;
+  }
+  .nav-links a{
+    color: #fff;
+    text-align: center;
+  }
+  .nav-links.open{
+    clip-path: circle(1000px at 95% -30%);
+    -webkit-clip-path: circle(1000px at 95% -30%);
+  }
+ }
+
+
+/* media query ends */
