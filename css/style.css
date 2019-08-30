@@ -1,5 +1,6 @@
 /* Main Css */
-@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap&subset=korean");
+@import url('https://fonts.googleapis.com/css?family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text|Lobster|Poiret+One|Roboto+Slab|Special+Elite&display=swap');
 
 * {
   margin: 0;
@@ -13,7 +14,7 @@
 
 html,
 body {
-  font-family: "Nanum Gothic", sans-serif;
+  font-family: 'Vidaloka', serif;
   font-size: 1rem;
   background: var(--bg-light);
 }
@@ -81,6 +82,11 @@ nav li:hover {
 /* first page begins */
 .profile {
   margin: 5rem 0;
+  font-family: 'Libre Caslon Text', serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Special Elite', cursive;
 }
 
 .greeting p {
@@ -158,6 +164,7 @@ ul li,
   margin-right: 0.4rem;
   cursor: pointer;
 }
+
 /* second page ends*/
 
 /* Third page begins */
@@ -178,7 +185,9 @@ ul li,
     box-shadow: 1px 5px 10px 2px rgba(0,0,0,0.2);
     padding: 30px 20px;
     background: var(--text-light);
-
+}
+.i-card{
+  text-align: center;
 }
 /* Third page ends */
 
