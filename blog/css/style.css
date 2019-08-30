@@ -33,7 +33,7 @@ font-family: 'Libre Caslon Text', serif;
 }
 /* header begins */
 nav{
-	background:linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('home-bg-img.jpg') no-repeat center;
+	background:linear-gradient(to bottom, rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('home-bg-img.jpg') no-repeat center;
   background-size: cover;
   height: 400px;
   padding: 20px;
