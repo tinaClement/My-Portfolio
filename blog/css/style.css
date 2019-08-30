@@ -62,7 +62,7 @@ nav li {
   text-transform: capitalize;
   transition: all 300ms ease-in-out;
   font-weight: bold;
-  margin: 15px;
+  margin: 10px;
 }
 nav li:hover {
   border-bottom: 1px solid var(--text-dark);
