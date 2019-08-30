@@ -153,6 +153,7 @@ nav .landing-text{
 .box1{
   box-shadow: 1px 5px 8px 2px rgba(0,0,0,0.2);
   margin-top: 60px;
+  width: 100%;
 }
 .box1 h3{
   color: var(--text-light);
@@ -165,9 +166,12 @@ nav .landing-text{
   background: rgb(18, 18, 26);
   height: 60px;
   border-radius: 10px;
-  width: 680px;
+  width: 90%;
   color: var(--text-light);
   padding: 20px;
+}
+.box1 textarea{
+  width: 90%;
 }
 .box1 input{
   margin: 20px;
@@ -184,7 +188,7 @@ nav .landing-text{
   height: 200px;
 }
 .box1 button{
-  width: 150px;
+  width: 100%px;
   height: 40px;
   margin: 20px;
   border-radius: 20px;
@@ -198,6 +202,7 @@ nav .landing-text{
   color: var(--text-light);
   font-weight: bold;
   text-align: center;
+  width: 100%;
 }
 .left{
   color: var(--text-light);
@@ -225,15 +230,21 @@ nav .landing-text{
   margin-top: 100px;
 
 }
+.right-side form{
+  width: 100%;
+}
 .right-side input, textarea{
   display: block;
   margin-top: 20px;
   background: rgb(18, 18, 26);
   height: 60px;
   border-radius: 10px;
-  width: 680px;
+  width: 90%;
   color: var(--text-light);
   padding: 20px;
+}
+.right-side textarea{
+  width: 90%;
 }
 .right-side input{
   margin: 20px;
@@ -250,8 +261,8 @@ nav .landing-text{
   height: 200px;
 }
 .right-side button{
-  width: 670px;
-  margin-left: 30px;
+  width: 90%;
+  margin-left: 20px;
   border-radius: 20px;
   height: 50px;
   background: var(--primary-color);
